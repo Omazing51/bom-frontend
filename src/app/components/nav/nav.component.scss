@@ -1,0 +1,33 @@
+.hidden-mobile
+{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    .firstnav
+    {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        // border: 1px solid yellow;
+        ul
+        {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            li
+            {
+                list-style: none;
+                padding-left: 2%;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bolder;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,134 @@
+.sidemenu{
+    // border: 1px solid red;
+    width: 0;
+    // padding: 40px;
+    height: 100vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    .sidenav{
+    //    border: 1px solid blue;
+       width: 80px;
+       height: 100vh;
+       position: absolute;
+       background: rgba(9, 9, 11, 0.7);
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+
+       .logo{
+     
+        // border: 1px solid pink;
+        width: 50%; 
+        max-height: 50px;
+        padding-top: 8px;
+        padding-bottom: 5px;
+
+    ul{
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        list-style: none;
+        .bomb{
+            color: #685cd1 !important;
+        }
+      }
+
+      li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     
+      }
+      
+    
+       }
+
+       .options{
+        width: 50%;
+        ul{
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        list-style: none;
+        li
+        {
+            padding-bottom: 20px;
+        }
+        img{
+            width: 30px;
+            
+        }
+        a{
+            color: red;
+        }
+        .mos
+        {
+          
+            visibility: hidden;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 60px;
+            height: 50px;
+            border-radius: 15px;
+            img
+            {
+             max-width: 100%;
+             top: 0;
+             left: 0;
+             width: 35%;
+             height: 42%;
+             object-fit: cover;
+            }
+        }
+        .mos2
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 60px;
+            height: 50px;
+            border-radius: 15px;
+            img
+            {
+             max-width: 100%;
+             top: 0;
+             left: 0;
+             width: 35%;
+             height: 42%;
+             object-fit: cover;
+            }
+        }
+        a:hover
+        {
+            .mos2
+            {
+                visibility: hidden;
+            }
+            .mos
+            {
+              
+              
+                background: #685cd1;
+                visibility: visible;
+                transition: 0.3s ease-in-out;
+                box-shadow: 0 0 80px #685cd1;
+            }
+        }
+        }
+       }
+    }
+}
