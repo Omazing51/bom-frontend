@@ -9,7 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FootballComponent } from './components/football/football.component';
-import {HttpClient} from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http';
 const appRoutes:Routes=[
   {path:'', component:HomeComponent},
   {path:'football', component:FootballComponent},
@@ -27,6 +27,7 @@ const appRoutes:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

@@ -1,5 +1,16 @@
 .hidden-mobile
 {
   background: #17171D;
-  height: 100vh;
+  // padding: 20px; /* ajusta el valor de acuerdo a tus necesidades */
+  margin-left: 80px; /* ajusta el valor para que coincida con el ancho del sidenav */
+  padding-top: 50px; /* ajusta el valor para que coincida con el alto del nav */
+  font-family: 'Poppins', sans-serif;
+  h1
+  {
+    margin-left: 10px;
+    color: #a1a2a5;
+    font-size: .6rem;
+  }
 }
+
+
