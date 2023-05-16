@@ -8,10 +8,10 @@
     align-items: center;
     text-align: center;
     z-index: 2;
-    margin-bottom: 100px;
+
 
     .sidenav{
-    //    border: 1px solid blue;
+      //  border: 1px solid blue;
        width: 80px;
        height: 100vh;
        position: absolute;
@@ -19,12 +19,13 @@
        justify-content: center;
        text-align: center;
        align-items: center;
+       padding-bottom: 50%;
        .logo{
         // border: 1px solid pink;
         width: 50%;
         max-height: 50px;
-        // padding-top: 1px;
-        padding-bottom: 2px;
+        padding-top: 13px;
+        padding-bottom: 22px;
 
     ul{
         text-align: center;
@@ -38,18 +39,13 @@
             color: #685cd1 !important;
         }
       }
-
       li{
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-
       }
-
-
        }
-
        .options{
         width: 50%;
         ul{
